@@ -15,7 +15,7 @@ const SongCard = ({ data, song, i, activeSong, isPlaying }) => {
     dispatch(playPause(true))
   };
   return (
-    <div className="flex flex-col w-[250px] p-4 bg-white/5 bg-opacity-80 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer">
+    <div className="flex flex-col sm:w-[150px] md:w-[250px] p-4 bg-white/5 bg-opacity-80 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer">
       <div className="relative w-full h-full group">
         <div
           className={`absolute inset-0 justify-center items-center bg-black bg-opacity-50 group-hover:flex ${
